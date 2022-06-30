@@ -1,0 +1,139 @@
+@media only screen and (max-width: 800px) {
+    #navbar {
+        background: black;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome-background {
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.projects-background {
+    background: #45567d;
+}
+
+.contact-background {
+    background: #303841;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background: #be3144;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li {
+    display: list-item;
+    font-size: 24px;
+    color: rgb(238, 229, 229);
+}
+
+#navbar ul li:hover {
+    background: #45567d;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 18px;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#welcome-section h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgb(238, 229, 229);
+}
+
+#welcome-section p {
+    font-style: italic;
+    font-size: 28px;
+    color: #be3144;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projects h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+
+.grid-projects {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    grid-gap: 10px;
+    align-content: center;
+}
+
+.grid-projects a {
+    display: flex;
+    height: 280px;
+    background: orangered;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#contact h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-links a {
+    font-size: 30px;
+}
+
+.contact-links a:hover {
+    font-size: 40px;
+}

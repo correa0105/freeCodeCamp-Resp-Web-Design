@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: rgb(250, 248, 226);
+    padding: 5px;
+}
+
+h1, h2, p {
+    text-align: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+
+.img-div {
+    display: block;
+    justify-content: center;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75%;
+}
+
+ul li {
+    margin-top: 10px;
+}
+
+#footer {
+    background: rgb(250, 248, 226);
+    padding: 5px;  
+}
